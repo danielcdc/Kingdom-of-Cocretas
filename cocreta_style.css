@@ -1,0 +1,22 @@
+#portada{/*Actúa como #envoltorio de la página Portada*/
+	background-color: #FAEBD7;
+	width: 90%;
+	margin: 0 auto;
+	overflow: auto;
+}
+#portada img{
+	box-sizing: border-box;
+	width: 120%;
+	justify-content: center;
+}
+#portada footer{
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	clear: both;
+}
+#index{/*Actúa como #envoltorio de la página Índice.*/
+	
+
+}
+
