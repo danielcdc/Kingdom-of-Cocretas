@@ -1,0 +1,62 @@
+header h1{
+			width: 95%;
+		}
+
+	header{
+			margin-top: 0px;
+			margin-bottom: 5px;
+		}	
+
+	body {
+
+		background-image: url(img/ocean.jpg);
+		background-repeat: no-repeat;
+		background-size: cover; 
+		
+	}
+
+	nav {
+		width: 15%;
+		float: left;
+	}	
+		
+	h1 {
+		text-align: center;
+		width: 75%;
+		padding: 1%;
+		margin: 1%;
+		border:  solid 2px #dc001b;
+		color: #fff;
+		/*background-color: rgb(235, 64, 52);*/
+		background-image: url(img/cerebro.jpg);
+		background-repeat: no-repeat;
+		background-size: cover; 
+		text-decoration: none;
+		display: block;
+	}
+
+	a {
+		text-align: center;
+		width: 110%;
+		border:  solid 2px #dc001b;
+		color: #fff;
+		/*background-color: rgb(235, 64, 52);*/
+		background-image: url(img/cerebro.jpg);
+		background-repeat: no-repeat;
+		background-size: cover; 
+		text-decoration: none;
+		display: block;
+	}
+
+	section {
+		width: 60%;
+			float: left;
+			padding: 2%;
+			margin-bottom: 200px;
+	}
+
+	aside {
+		width: 21%;
+			float: right;
+		
+	}
