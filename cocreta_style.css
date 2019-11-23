@@ -1,22 +1,114 @@
+body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
+	background-color: coral;
+}
 #portada{/*Actúa como #envoltorio de la página Portada*/
 	background-color: #FAEBD7;
 	width: 90%;
 	margin: 0 auto;
-	overflow: auto;
 }
-#portada img{
+#portada img{ /*Apartado I*/
 	box-sizing: border-box;
-	width: 120%;
+	width: 100%;
 	justify-content: center;
 }
-#portada footer{
+#portada footer{/*Apartado II*/
 	box-sizing: border-box;
 	width: 100%;
 	text-align: center;
 	clear: both;
 }
 #index{/*Actúa como #envoltorio de la página Índice.*/
-	
+	background-color: #FAEBD7;
+	width: 90%;
+	margin: 0 auto;
+	overflow: auto;
+}
+#index header{ /*Apartado I*/
+	box-sizing: border-box;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 32px;
+	background-color: yellow;
+}
+#index main{ /*Apartado II: El main contiene al índice.*/
+	box-sizing: border-box;
+	width: 80%;
+	justify-content: center;
+	float: left;
+	background-color: red;
+}
+#index main img{/*Apartado III: Imagen que complementa el índice.*/
+	box-sizing: border-box;
+	width: 100%;
+}
+#index nav{ /*Apartado IV: Hueco para un video molesto.*/
+	box-sizing: border-box;
+	width: 20%;
+	float: right;
+	/*Pruebas*/
+	background-color: green;
+}
+#index nav video{
+	box-sizing: border-box;
+	overflow: auto;
+}
+#index footer{ /*Apartado V: Mismo pie de página que la portada.*/
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	clear: both;
+}
+#pagina1{/*Actúa como #envoltorio de la página Índice.*/
+	width: 90%;
+	margin: 0 auto;
+}
+#pagina1 header{ 
+	box-sizing: border-box;
+	width: 100%;	
+	/*Pruebas*/
+	background-color: #FAEBD7;
+	font-size: 25pt;
+	font-family: Verdana;
+	text-align: center;
+	border: 2px solid black;
+	margin-bottom: 0.5%;
+}
+#pagina1 #menu nav{ /*Navegador horizontal, justo debajo del header. Aquí estará el índice con las diferentes partes del texto.*/
+	box-sizing: border-box;
+	width: 100%;
+	clear: both;
+	margin-bottom: 0.5%;
+	/*Pruebas*/
+	background-color: #FAEBD7;
+	font-size: 25pt;
+	font-family: Verdana;
+	text-align: center;
+	border: 2px solid black;
+}
+#pagina1 main{ /*Contenido potente sobre la historia de la cocreta y sus orígenes.*/
+	box-sizing: border-box;
+	width: 80%;
+	margin-bottom: 0.5%;
+	float: left;
+	/*Pruebas*/
+	justify-content: center;
+	background-color: #FAEBD7;
+	font-size: 25pt;
+	font-family: Verdana;
+	text-align: center;
+	border: 2px solid black;
+	margin-bottom: 0.5%;
+}
+#pagina1 main img{ /*Imágenes que acompañen a la historia.*/
 
 }
-
+#pagina1 nav{
+	box-sizing: border-box;
+	width: 20%;
+	float: right;
+	/*Pruebas*/
+	border: 2px solid black;
+	font-size: 10pt;
+	font-family: Arial;
+}
