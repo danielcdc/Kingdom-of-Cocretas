@@ -105,14 +105,14 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	background-color: #FAEBD7;
 	font-size: 25pt;
 	font-family: Verdana;
-	text-align: center;
+	text-align: justify;
 	border: 2px solid black;
 	margin-bottom: 0.5%;
 }
 #pagina1 main img{ /*Imágenes que acompañen a la historia.*/
 
 }
-#pagina1 nav{
+#pagina1 aside{
 	box-sizing: border-box;
 	width: 20%;
 	float: right;
@@ -120,4 +120,10 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	border: 2px solid black;
 	font-size: 10pt;
 	font-family: Arial;
+}
+#pagina1 aside video{
+	width: 100%;
+}
+#pagina1 aside img{
+	width: 100%;
 }
