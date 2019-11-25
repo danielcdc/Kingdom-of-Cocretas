@@ -7,7 +7,7 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 }
 @font-face{
 	font-family:"RumRaisin-Regular" ;
-	src:url("img/fuente/RumRaisin-Regular.ttf"))
+	src: url("img/fuente/RumRaisin-Regular.ttf"))
 }
 
 #portada{/*Actúa como #envoltorio de la página Portada*/
