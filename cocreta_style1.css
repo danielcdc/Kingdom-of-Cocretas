@@ -103,9 +103,9 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	/*Pruebas*/
 	justify-content: center;
 	background-color: #FAEBD7;
-	font-size: 15pt;
-	font-family: "RumRaisin-Regular";
-	text-align: justify;
+	font-size: 25pt;
+	font-family: Verdana;
+	text-align: center;
 	border: 2px solid black;
 	margin-bottom: 0.5%;
 }
@@ -115,6 +115,9 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 }
 #pagina1 main h2{
 	font-family: "Lobster-Regular";
+}
+#pagina1 main img{ /*Imágenes que acompañen a la historia.*/
+
 }
 #pagina1 main #jamon{
 
@@ -143,10 +146,6 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 #pagina1 main video{
 	display: block;
 	margin: auto;
-	
-}
-#pagina1 main img{ /*Imágenes que acompañen a la historia.*/
-
 }
 #pagina1 aside{
 	box-sizing: border-box;
@@ -156,10 +155,4 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	border: 2px solid black;
 	font-size: 10pt;
 	font-family: Arial;
-}
-#pagina1 aside video{
-	width: 100%;
-}
-#pagina1 aside img{
-	width: 100%;
 }
