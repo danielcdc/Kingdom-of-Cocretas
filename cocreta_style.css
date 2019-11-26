@@ -3,114 +3,88 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 }
 #portada{/*Actúa como #envoltorio de la página Portada*/
 	background-color: #FAEBD7;
-	width: 90%;
+	width: 75%;
 	margin: 0 auto;
 }
-#portada img{ /*Apartado I*/
+#portada img{ /*Portada Apartado I*/
 	box-sizing: border-box;
 	width: 100%;
 	justify-content: center;
 }
-#portada footer{/*Apartado II*/
+.avisoLegal{/*La clase avisoLegal se aplica al footer.*/
 	box-sizing: border-box;
 	width: 100%;
 	text-align: center;
 	clear: both;
 }
-#index{/*Actúa como #envoltorio de la página Índice.*/
+#envoltorio{/*Actúa como #envoltorio de las página  de Índice y Contenido.*/
 	background-color: #FAEBD7;
 	width: 90%;
-	margin: 0 auto;
+	margin: auto;
 	overflow: auto;
 }
-#index header{ /*Apartado I*/
+#envoltorio header{ /*Índice Apartado I*/
 	box-sizing: border-box;
 	width: 100%;
-	margin: 0 auto;
+	margin: 0 auto 2px;
+	border: 2px solid black;
+	/*Pruebas*/
 	text-align: center;
 	font-size: 32px;
 	background-color: yellow;
 }
-#index main{ /*Apartado II: El main contiene al índice.*/
-	box-sizing: border-box;
-	width: 80%;
-	justify-content: center;
-	float: left;
-	background-color: red;
-}
-#index main img{/*Apartado III: Imagen que complementa el índice.*/
+.menu{ /*Navegador horizontal, justo debajo del header y se aplica al nav. Aquí estará el índice con las diferentes partes del texto.*/
 	box-sizing: border-box;
 	width: 100%;
+	clear: both;
+	margin: 0 auto 2px;
+	/*Pruebas*/
+	background-color: #FAEBD7;
+	font-size: 25pt;
+	font-family: Verdana;
+	text-align: center;
+	border: 2px solid black;
 }
-#index nav{ /*Apartado IV: Hueco para un video molesto.*/
+#envoltorio main{ /* Índice Apartado II: El main contiene al índice.*/
 	box-sizing: border-box;
-	width: 20%;
+	width: 79%;
+	float: left;
+	margin: 0.5%;
+	/*Pruebas*/
+	background-color: red;
+	justify-content: center;
+}
+#envoltorio .publicidad{ /* Índice Apartado IV: Hueco para un video y publicidad molestas. Se coloca en el aside.*/
+	box-sizing: border-box;
+	width: 19%;
+	margin: 0.5%;
 	float: right;
 	/*Pruebas*/
 	background-color: green;
 }
-#index nav video{
+#envoltorio aside video{/*El vídeo molesto*/
 	box-sizing: border-box;
 	overflow: auto;
 }
-#index footer{ /*Apartado V: Mismo pie de página que la portada.*/
-	box-sizing: border-box;
-	width: 100%;
-	text-align: center;
-	clear: both;
-}
-#pagina1{/*Actúa como #envoltorio de la página Índice.*/
-	width: 90%;
-	margin: 0 auto;
-}
-#pagina1 header{ 
-	box-sizing: border-box;
-	width: 100%;	
-	/*Pruebas*/
+#carrusel{/*Actua como envoltorio para la página de carrusel, que requiere de otras dimensiones.*/
 	background-color: #FAEBD7;
-	font-size: 25pt;
-	font-family: Verdana;
-	text-align: center;
-	border: 2px solid black;
-	margin-bottom: 0.5%;
-}
-#pagina1 #menu nav{ /*Navegador horizontal, justo debajo del header. Aquí estará el índice con las diferentes partes del texto.*/
-	box-sizing: border-box;
-	width: 100%;
-	clear: both;
-	margin-bottom: 0.5%;
-	/*Pruebas*/
-	background-color: #FAEBD7;
-	font-size: 25pt;
-	font-family: Verdana;
-	text-align: center;
-	border: 2px solid black;
-}
-#pagina1 main{ /*Contenido potente sobre la historia de la cocreta y sus orígenes.*/
-	box-sizing: border-box;
 	width: 80%;
-	margin-bottom: 0.5%;
-	float: left;
+	margin: auto;
+	overflow: auto;
 	/*Pruebas*/
-	justify-content: center;
-	background-color: #FAEBD7;
-	font-size: 25pt;
-	font-family: Verdana;
-	text-align: center;
-	border: 2px solid black;
-	margin-bottom: 0.5%;
+	padding: 1%;
 }
-#pagina1 main img{ /*Imágenes que acompañen a la historia.*/
-
-}
-#pagina1 nav{
+#carruselIzq {/*Aplicar al aside izq del carrusel. Por fuera del envolotori #carrusel.*/
 	box-sizing: border-box;
-	width: 20%;
+	overflow: auto;
+	float: left;
+	width: 5%;
+}
+#carruselDer {/*Aplicar al aside der del carrusel. Por fuera del envolotori #carrusel.*/
+	box-sizing: border-box;
+	overflow: auto;
 	float: right;
-	/*Pruebas*/
-	border: 2px solid black;
-	font-size: 10pt;
-	font-family: Arial;
+	width: 5%;
 }
 
 .superindice {
@@ -135,7 +109,7 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 
 		}
 	
-	a {
+.let {
 				text-decoration: none;
 				color: #000;
 				height: 80%;
@@ -143,8 +117,7 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 
 		}
 
-		main {
+main {
 			background-image: url(img/fond.jpg);
 		}
-	
 
