@@ -109,6 +109,16 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	border: 2px solid black;
 	margin-bottom: 0.5%;
 }
+#pagina1 main iframe {
+	display: block;
+	margin: auto;
+	
+
+}
+#pagina1 main video{
+	display: block;
+	margin: auto;
+}
 #pagina1 main img{ /*Imágenes que acompañen a la historia.*/
 
 }
