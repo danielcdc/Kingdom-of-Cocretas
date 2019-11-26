@@ -2,7 +2,7 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	background-color: coral;
 }
 @font-face {
-	font-family: "Lobster-Regular.ttf";
+	font-family: "Lobster-Regular";
 	src: url("img/Lobster/Lobster-Regular.ttf");
 }
 @font-face{
@@ -103,11 +103,36 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	/*Pruebas*/
 	justify-content: center;
 	background-color: #FAEBD7;
-	font-size: 25pt;
-	font-family: Verdana;
+	font-size: 15pt;
+	font-family: "RumRaisin-Regular";
 	text-align: justify;
 	border: 2px solid black;
 	margin-bottom: 0.5%;
+}
+#pagina1 main h1{
+	font-family: "Lobster-Regular";
+	word-spacing: 1px;
+}
+#pagina1 main h2{
+	font-family: "Lobster-Regular";
+}
+#pagina1 main #jamon{
+
+	width: 50%;
+	display: block;
+	margin: auto;
+}
+#pagina1 main #puchero{
+
+	width: 50%;
+	display: block;
+	margin: auto;
+}
+#pagina1 main #pollo{
+
+	width: 50%;
+	display: block;
+	margin: auto;
 }
 #pagina1 main iframe {
 	display: block;
@@ -118,6 +143,7 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 #pagina1 main video{
 	display: block;
 	margin: auto;
+	
 }
 #pagina1 main img{ /*Imágenes que acompañen a la historia.*/
 
