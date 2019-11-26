@@ -33,7 +33,7 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	font-size: 32px;
 	background-color: yellow;
 }
-#envoltorio #menu nav{ /*Navegador horizontal, justo debajo del header. Aquí estará el índice con las diferentes partes del texto.*/
+.menu{ /*Navegador horizontal, justo debajo del header y se aplica al nav. Aquí estará el índice con las diferentes partes del texto.*/
 	box-sizing: border-box;
 	width: 100%;
 	clear: both;
@@ -47,38 +47,43 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 }
 #envoltorio main{ /* Índice Apartado II: El main contiene al índice.*/
 	box-sizing: border-box;
-	width: 80%;
+	width: 79%;
 	float: left;
+	margin: 0.5%;
 	/*Pruebas*/
 	background-color: red;
 	justify-content: center;
 }
-#envoltorio aside{ /* Índice Apartado IV: Hueco para un video y publicidad molestas.*/
+#envoltorio .publicidad{ /* Índice Apartado IV: Hueco para un video y publicidad molestas. Se coloca en el aside.*/
 	box-sizing: border-box;
-	width: 20%;
+	width: 19%;
+	margin: 0.5%;
 	float: right;
 	/*Pruebas*/
 	background-color: green;
-}
-.publicidad{/*Clase para tunear la publicidad del lateral derecho. Aplicarlo al aside.*/
-
 }
 #envoltorio aside video{/*El vídeo molesto*/
 	box-sizing: border-box;
 	overflow: auto;
 }
-#centrarMain{
-	clear: both;
+#carrusel{/*Actua como envoltorio para la página de carrusel, que requiere de otras dimensiones.*/
+	background-color: #FAEBD7;
+	width: 80%;
+	margin: auto;
+	overflow: auto;
+	/*Pruebas*/
+	padding: 1%;
 }
-#carruselIzq {/*Aplicar al aside izq del carrusel.*/
+#carruselIzq {/*Aplicar al aside izq del carrusel. Por fuera del envolotori #carrusel.*/
 	box-sizing: border-box;
 	overflow: auto;
 	float: left;
-	width:5%;
+	width: 5%;
 }
-#carruselDer {/*Aplicar al aside der del carrusel.*/
+#carruselDer {/*Aplicar al aside der del carrusel. Por fuera del envolotori #carrusel.*/
 	box-sizing: border-box;
 	overflow: auto;
 	float: right;
-	width:5%;
+	width: 5%;
 }
+
