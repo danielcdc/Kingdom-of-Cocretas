@@ -1,5 +1,7 @@
 body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
-	background-color: coral;
+	background-image: url("img/fondococina.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 	width: 100%;
 }
 
@@ -9,10 +11,8 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
  }
 
 #portada{/*Actúa como #envoltorio de la página Portada*/
-	background-image: url("img/vintage.jpg");
-	border-width: 1px;
-	border-style: solid;
-	border-color: black;
+	background-image: url("img/maderapino.jpg");
+	box-shadow: 20px 2px 2px;
 	border-radius: 150px 150px 200px 200px;
 	width: 90%;
 	margin: 0 auto;
@@ -26,7 +26,7 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	border-width: 2px;
 	border-color:orange green yellow red;
 	border-radius: 300px; 
-	background-image: url("img/mantel.jpg");
+	background-image: url("img/manelazul.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	justify-content: center;
@@ -35,12 +35,14 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 
 #portada #titulo h1{
 	width: 40%;
-	background-image: url("img/mantel.jpg");
+	background-image: url("img/manelazul.jpg");
+	background-size: 565px;
 	font-family: "Orange juice";
 	font-size: 80px;
 	margin: 0 auto;
-	border-style: solid;
-	border-color:  green yellow orange;
+	border: 30px;
+	border-style: hidden groove hidden groove;
+	border-color:rgb(31, 28, 28);
 	border-radius: 200px;
 }
 
@@ -64,9 +66,10 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 footer{/*Apartado II*/
 	box-sizing: border-box;
 	border: 0.1px solid black;
-	width: 100%;
+	width: 50%;
 	clear: both;
-	margin-top: 70px;
+	margin: 0 auto;
+	background-color: white;
 }
 #index{/*Actúa como #envoltorio de la página Índice.*/
 	background-color: #FAEBD7;
