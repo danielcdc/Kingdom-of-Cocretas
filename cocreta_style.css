@@ -1,13 +1,16 @@
 body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	background-color: coral;
+	width: 100%;
 }
 #portada{/*Actúa como #envoltorio de la página Portada*/
 	background-image: url("img/vintage.jpg");
-	border-width: 0px;
-	border-style: hidden;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
 	border-radius: 150px 150px 200px 200px;
 	width: 90%;
 	margin: 0 auto;
+	text-align: center;
 }
 #portada #imag{ /*Apartado I*/
 	box-sizing: border-box;
@@ -25,16 +28,21 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 }
 
 #portada #imag a img{ /*Apartado I*/
+	box-sizing: border-box;
+	border-radius: 300px;
 	width: 100%;
+}
+
+#portada #imag:hover{ /*Apartado I*/
+	box-shadow: 1px 1px 30px black;
 }
 
 footer{/*Apartado II*/
 	box-sizing: border-box;
-	background-color: brown;
-	width: 60%;
-	text-align: center;
+	border: 0.1px solid black;
+	width: 100%;
 	clear: both;
-	margin: 0 auto;
+	margin-top: 70px;
 }
 #index{/*Actúa como #envoltorio de la página Índice.*/
 	background-color: #FAEBD7;
