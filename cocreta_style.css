@@ -113,6 +113,14 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	font-family: Arial;
 }
 
+.superindice {
+	padding-right: 13%;
+}
+
+.anuncio {
+	margin-left: 70%;
+}
+
 .indice  {
 		text-align: center;
 		width: 110%;
@@ -131,7 +139,7 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 				text-decoration: none;
 				color: #000;
 				height: 80%;
-				bottom: 100%;
+				padding-right: 25%;
 
 		}
 
