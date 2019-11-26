@@ -2,6 +2,12 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	background-color: coral;
 	width: 100%;
 }
+
+@font-face{
+	font-family: 'Orange juice';
+	src: url('orange-juice/orangejuice.ttf');
+ }
+
 #portada{/*Actúa como #envoltorio de la página Portada*/
 	background-image: url("img/vintage.jpg");
 	border-width: 1px;
@@ -27,14 +33,32 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	box-shadow: 1px 1px 10px brown;
 }
 
+#portada #titulo h1{
+	width: 40%;
+	background-image: url("img/mantel.jpg");
+	font-family: "Orange juice";
+	font-size: 80px;
+	margin: 0 auto;
+	border-style: solid;
+	border-color:  green yellow orange;
+	border-radius: 200px;
+}
+
 #portada #imag a img{ /*Apartado I*/
 	box-sizing: border-box;
 	border-radius: 300px;
-	width: 100%;
+	width: 99.9%;
 }
 
 #portada #imag:hover{ /*Apartado I*/
-	box-shadow: 1px 1px 30px black;
+	border-radius: 270px;
+	border-style: dashed;
+	border-color: black;
+	box-shadow: 1px 1px 90px black;
+}
+
+#portada #imag:hover img{ /*Apartado I*/
+	width: 100%;
 }
 
 footer{/*Apartado II*/
