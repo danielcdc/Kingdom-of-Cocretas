@@ -2,7 +2,9 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	background-color: coral;
 }
 /*colores #FCC8B2 #685369 #EFA48B #DBD8B3*/
-
+/*.colorBody {
+	background-color:rgb(94, 60, 33);
+}*/
 .avisoLegal{/*La clase avisoLegal se aplica al footer.*/
 	box-sizing: border-box;
 	width: 100%;
@@ -10,7 +12,7 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	clear: both;
 }
 #envoltorio{/*Actúa como #envoltorio de las página  de Índice y Contenido.*/
-	background-color: #FAEBD7;
+	background-color: rgb(216, 141, 43);
 	width: 90%;
 	margin: auto;
 	overflow: auto;
@@ -26,7 +28,7 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	/*background-color: yellow;*/
 }
 #envoltorio header #color{
-	background-color: #51101E;
+	background-color: #86615C;
 }
 .menu{ /*Navegador horizontal, justo debajo del header y se aplica al nav. Aquí estará el índice con las diferentes partes del texto.*/
 	box-sizing: border-box;
@@ -34,14 +36,14 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	clear: both;
 	margin: 0 auto 2px;
 	/*Pruebas*/
-	background-color: #FAEBD7;
+	/*background-color: #FAEBD7;*/
 	font-size: 25pt;
 	font-family: Verdana;
 	text-align: center;
 	border: 2px solid black;
 }
 .menu .color{
-
+	background-color: rgb(160, 90, 65);
 }
 #envoltorio main{ /* Índice Apartado II: El main contiene al índice.*/
 	box-sizing: border-box;
@@ -53,7 +55,8 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	justify-content: center;*/
 }
 #envoltorio main #color{
-	color: #5a401f;
+	color: black;
+	background-color: rgb(216, 141, 43);
 }
 #envoltorio main #jamon #texto{
 	width: 50%;
