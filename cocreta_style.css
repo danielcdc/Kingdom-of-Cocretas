@@ -2,16 +2,7 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	background-color: coral;
 }
 /*colores #FCC8B2 #685369 #EFA48B #DBD8B3*/
-#portada{/*Actúa como #envoltorio de la página Portada*/
-	background-color: #FAEBD7;
-	width: 75%;
-	margin: 0 auto;
-}
-#portada img{ /*Portada Apartado I*/
-	box-sizing: border-box;
-	width: 100%;
-	justify-content: center;
-}
+
 .avisoLegal{/*La clase avisoLegal se aplica al footer.*/
 	box-sizing: border-box;
 	width: 100%;
@@ -55,85 +46,85 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	background-color: red;
 	justify-content: center;*/
 }
-#envoltorio main #jamon #div.titulo{
-	font-family: "Lobster-Regular";
-	word-spacing: 1px;
-}
-#envoltorio main #jamon #div .subtitulo{
-	font-family: "Lobster-Regular";
-}
-#envoltorio main #jamon div{
+
+#envoltorio main #jamon #texto{
 	width: 50%;
 	border-width: 5px;
 	border-color: black;
 	border-style: solid;
-	padding: 5%;
-	margin: 5% 25% 5% 25%;
+	padding: 3%;
+	margin: 3px;
 	border-radius: 10%;
-	position: relative;
-	right:37.5px;
-	background-image: url("img/croquetadejamon.jpg");
-}
+	float: left;
+	background-image: url("img/croquetasdejamon.jpg");
+	background-position: center left,center bottom;
 
-#envoltorio main #puchero div li{
+}
+.lis{
 	display: inline-block;
 }
-#envoltorio main #jamon div li{
-	display: inline-block;
-}
-#envoltorio main #pollo div li{
-	display: inline-block;
-}			
+	
 #envoltorio main #jamon video{
 display: block;
-margin: auto;
+width: 525px;
+position: relative;
+left: 20px;
+top: 45px;
 }
-#envoltorio main #puchero div{
+#envoltorio main #puchero #texto1{
 	width: 50%;
 	border-width: 5px;
 	border-color: black;
 	border-style: solid;
-	padding: 5%;
-	margin: 5% 25% 5% 25%;
+	padding: 3%;
+	margin: 3px;
 	border-radius: 10%;
-	text-align: center;
-}
-#envoltorio main #pollo div{
-	width: 50%;
-	border-width: 5px;
-	border-color: black;
-	border-style: solid;
-	padding: 5%;
-	margin: 5% 25% 5% 25%;
-	border-radius: 10%;
-	text-align: center;
-}
-#envoltorio main #jamon .titulo{
-	font-family: "Lobster-Regular";
-	word-spacing: 1px;
-}
-#envoltorio main #jamon .subtitulo{
-	font-family: "Lobster-Regular";
-}
-#envoltorio main #puchero .titulo{
-	font-family: "Lobster-Regular";
-	word-spacing: 1px;
-}
-#envoltorio main #puchero .subtitulo{
-	font-family: "Lobster-Regular";
-}
-#envoltorio main #pollo .titulo{
-	font-family: "Lobster-Regular";
-	word-spacing: 1px;
-}
-#envoltorio main #pollo.subtitulo{
-	font-family: "Lobster-Regular";
-}
-#envoltorio main iframe {
-	display: block;
-	margin: auto;
-	
+	float: left;
+	background-image: url("img/pucherofondo.jpg");
+	background-position: center;
 
+}
+#envoltorio main #puchero video{
+	display: block;
+	width: 525px;
+	position: relative;
+	left: 20px;
+	top: 245px;
+	}
+
+#envoltorio main #pollo #texto2{
+	width: 50%;
+	border-width: 5px;
+	border-color: black;
+	border-style: solid;
+	padding: 3%;
+	border-radius: 10%;
+	float: left;
+	background-image: url("img/pollofondo1.jpg") ;
+	background-repeat: no-repeat;
+	background-position: center ;
+	
+} 
+#envoltorio main #pollo video{
+	display: block;
+	width: 525px;
+	position: relative;
+	left: 20px;
+	top: 260px;
+	}
+#envoltorio main #pollo img{
+	display: block;
+	width: 525px;
+	position: relative;
+	left: 20px;
+	top: 300px;
+}	
+.titulo{
+	font-family: "Lobster-Regular";
+	word-spacing: 1px;
+}
+.subtitulo{
+	font-family: "Lobster-Regular";
 }
 #envoltorio .publicidad{ /* Índice Apartado IV: Hueco para un video y publicidad molestas. Se coloca en el aside.*/
 	box-sizing: border-box;
@@ -147,24 +138,5 @@ margin: auto;
 	box-sizing: border-box;
 	overflow: auto;
 }
-#carrusel{/*Actua como envoltorio para la página de carrusel, que requiere de otras dimensiones.*/
-	background-color: #FAEBD7;
-	width: 80%;
-	margin: auto;
-	overflow: auto;
-	/*Pruebas
-	padding: 1%;*/
-}
-#carruselIzq {/*Aplicar al aside izq del carrusel. Por fuera del envolotori #carrusel.*/
-	box-sizing: border-box;
-	overflow: auto;
-	float: left;
-	width: 5%;
-}
-#carruselDer {/*Aplicar al aside der del carrusel. Por fuera del envolotori #carrusel.*/
-	box-sizing: border-box;
-	overflow: auto;
-	float: right;
-	width: 5%;
-}
+
 
