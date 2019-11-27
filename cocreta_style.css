@@ -20,10 +20,13 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	width: 100%;
 	margin: 0 auto 2px;
 	border: 2px solid black;
-	/*Pruebas*/
+	
 	text-align: center;
 	font-size: 32px;
-	background-color: yellow;
+	/*background-color: yellow;*/
+}
+#envoltorio header #color{
+	background-color: #51101E;
 }
 .menu{ /*Navegador horizontal, justo debajo del header y se aplica al nav. Aquí estará el índice con las diferentes partes del texto.*/
 	box-sizing: border-box;
@@ -37,6 +40,9 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	text-align: center;
 	border: 2px solid black;
 }
+.menu .color{
+
+}
 #envoltorio main{ /* Índice Apartado II: El main contiene al índice.*/
 	box-sizing: border-box;
 	width: 79%;
@@ -46,7 +52,9 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	background-color: red;
 	justify-content: center;*/
 }
-
+#envoltorio main #color{
+	color: #5a401f;
+}
 #envoltorio main #jamon #texto{
 	width: 50%;
 	border-width: 5px;
