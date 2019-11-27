@@ -1,6 +1,7 @@
 body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	background-color: coral;
 }
+/*colores #FCC8B2 #685369 #EFA48B #DBD8B3*/
 #portada{/*Actúa como #envoltorio de la página Portada*/
 	background-color: #FAEBD7;
 	width: 75%;
@@ -50,9 +51,9 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	width: 79%;
 	float: left;
 	margin: 0.5%;
-	/*Pruebas*/
+	/*Pruebas
 	background-color: red;
-	justify-content: center;
+	justify-content: center;*/
 }
 #envoltorio main #jamon #div.titulo{
 	font-family: "Lobster-Regular";
@@ -66,11 +67,14 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	border-width: 5px;
 	border-color: black;
 	border-style: solid;
-	padding: 1%;
+	padding: 5%;
 	margin: 5% 25% 5% 25%;
 	border-radius: 10%;
-	text-align: center;
+	position: relative;
+	right:37.5px;
+	background-image: url("img/croquetadejamon.jpg");
 }
+
 #envoltorio main #puchero div li{
 	display: inline-block;
 }
@@ -89,7 +93,7 @@ margin: auto;
 	border-width: 5px;
 	border-color: black;
 	border-style: solid;
-	padding: 1%;
+	padding: 5%;
 	margin: 5% 25% 5% 25%;
 	border-radius: 10%;
 	text-align: center;
@@ -99,7 +103,7 @@ margin: auto;
 	border-width: 5px;
 	border-color: black;
 	border-style: solid;
-	padding: 1%;
+	padding: 5%;
 	margin: 5% 25% 5% 25%;
 	border-radius: 10%;
 	text-align: center;
@@ -136,8 +140,8 @@ margin: auto;
 	width: 19%;
 	margin: 0.5%;
 	float: right;
-	/*Pruebas*/
-	background-color: green;
+	/*Pruebas
+	background-color: green;*/
 }
 #envoltorio aside video{/*El vídeo molesto*/
 	box-sizing: border-box;
@@ -148,8 +152,8 @@ margin: auto;
 	width: 80%;
 	margin: auto;
 	overflow: auto;
-	/*Pruebas*/
-	padding: 1%;
+	/*Pruebas
+	padding: 1%;*/
 }
 #carruselIzq {/*Aplicar al aside izq del carrusel. Por fuera del envolotori #carrusel.*/
 	box-sizing: border-box;
