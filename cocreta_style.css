@@ -34,13 +34,16 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	width: 100%;
 	margin: 0 auto 2px;
 	border: 2px solid black;
-	
 	text-align: center;
 	font-size: 32px;
 	/*background-color: yellow;*/
 }
+.colorspan{
+	color: rgb(0, 0, 238);
+}
 #envoltorio header #color{
 	background-color: #86615C;
+	white-space: nowrap;
 }
 .menu{ /*Navegador horizontal, justo debajo del header y se aplica al nav. Aquí estará el índice con las diferentes partes del texto.*/
 	box-sizing: border-box;
@@ -56,6 +59,8 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 }
 .menu .color{
 	background-color: rgb(160, 90, 65);
+	font-size: 20pt;
+	
 }
 #envoltorio main{ /* Índice Apartado II: El main contiene al índice.*/
 	box-sizing: border-box;
@@ -129,9 +134,10 @@ margin-right: 4%;
 	border-radius: 10%;
 	float: left;
 	background-image: url("img/pollofondo1.jpg") ;
-	background-repeat: no-repeat ;
+	background-repeat: repeat ;
 	background-position: center ;
 	text-shadow: white 1px 1px 1px;
+	font-size: 12.5pt;
 	font-family: "SourceSansPro-Regular";
 } 
 #envoltorio main #pollo video{
