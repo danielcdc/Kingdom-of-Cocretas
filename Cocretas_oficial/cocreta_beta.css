@@ -1,3 +1,16 @@
+/*Posicionamiento*/
+@font-face{
+	src: url("img/Lobster/Lobster-Regular.ttf");
+	font-family: "Lobster-Regular";
+}
+@font-face{
+	src: url("img/fuente/RumRaisin-Regular.ttf");
+	font-family: "RumRaisin-Regular";
+}
+@font-face{
+	src: url("img/fuente1/SourceSansPro-Regular.ttf");
+	font-family: "SourceSansPro-Regular";
+}
 body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	background-color: coral;
 }
@@ -32,6 +45,7 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	text-align: center;
 	font-size: 32px;
 	background-color: yellow;
+	
 }
 .menu{ /*Navegador horizontal, justo debajo del header y se aplica al nav. Aquí estará el índice con las diferentes partes del texto.*/
 	box-sizing: border-box;
@@ -39,11 +53,11 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	clear: both;
 	margin: 0 auto 2px;
 	/*Pruebas*/
-	background-color: #FAEBD7;
+	/*background-color: #FAEBD7;
 	font-size: 25pt;
 	font-family: Verdana;
 	text-align: center;
-	border: 2px solid black;
+	border: 2px solid black;*/
 }
 #envoltorio main{ /* Índice Apartado II: El main contiene al índice.*/
 	box-sizing: border-box;
@@ -51,28 +65,32 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	float: left;
 	margin: 0.5%;
 	/*Pruebas*/
-	background-color: red;
-	justify-content: center;
+	/*background-color: red;
+	justify-content: center;*/
 }
 #envoltorio .publicidad{ /* Índice Apartado IV: Hueco para un video y publicidad molestas. Se coloca en el aside.*/
+	position: sticky;
+	top: 0;
 	box-sizing: border-box;
 	width: 19%;
-	margin: 1%;
+	margin: 0.5%;
 	float: right;
 	/*Pruebas*/
-	background-color: green;
+	/*background-color: green;*/
 }
-#envoltorio aside video{/*El vídeo molesto*/
-	box-sizing: border-box;
-	overflow: auto;
+.publicidad img{/*Define el espacio a ocupar por las imágenes de publicidad.*/
+	width: 100%;
 }
+.publicidad video{/*Define el espacio a ocupar por el video publicitario.*/
+	width: 100%;
+} 
 #carrusel{/*Actua como envoltorio para la página de carrusel, que requiere de otras dimensiones.*/
 	background-color: #FAEBD7;
 	width: 80%;
 	margin: auto;
 	overflow: auto;
 	/*Pruebas*/
-	padding: 1%;
+	/*padding: 1%;*/
 }
 #carruselIzq {/*Aplicar al aside izq del carrusel. Por fuera del envolotori #carrusel.*/
 	box-sizing: border-box;
@@ -86,7 +104,8 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	float: right;
 	width: 5%;
 }
-/*Clases de Manu*/
+
+/*Selectores del Índice, elaborado Manuel Caro Delgado*/
 .superIndex {
 	padding-right: 13%;
 }
@@ -103,7 +122,6 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	border: solid 2px black;
 
 }
-
 .fuenteIndex{
 	text-decoration: none;
 	font-family: Verdana;
@@ -113,7 +131,116 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	padding-right: 25%;
 
 }
-
 .imagenMain{
 	background-image: url(img/fond.jpg);
+}
+/*Selectores de Recetas, elaborado por Christian Payo*/
+.colorspan{
+	color: rgb(0, 0, 238);
+}
+#envoltorio header #color{
+	background-color: #86615C;
+	white-space: nowrap;
+}
+
+.menu .color{
+	background-color: rgb(160, 90, 65);
+	font-size: 20pt;
+	
+}
+
+#envoltorio main #color{
+	color: black;
+	background-color: rgb(216, 141, 43);
+}
+#envoltorio main #jamon #texto{
+	width: 50%;
+	border-width: 5px;
+	border-color: black;
+	border-style: solid;
+	padding: 3%;
+	margin: 3px;
+	border-radius: 10%;
+	float: left;
+	background-image: url("img/croquetasdejamon.jpg");
+	background-position: center left,center bottom;
+	text-shadow: white 1px 1px 1px;
+	font-family: "SourceSansPro-Regular";
+}
+.lis{
+	display: inline-block;
+}
+
+#envoltorio main #jamon video{
+	display: block;
+	width: 35%;
+	float: right;
+	margin-bottom:30%;
+	margin-top: 6%;
+	margin-right: 4%;
+}
+#envoltorio main #puchero #texto1{
+	width: 50%;
+	border-width: 5px;
+	border-color: black;
+	border-style: solid;
+	padding: 3%;
+	margin: 3px;
+	border-radius: 10%;
+	float: left;
+	background-image: url("img/pucherofondo.jpg");
+	background-position: center;
+	text-shadow: white 1px 1px 1px;
+	font-family: "SourceSansPro-Regular";
+}
+#envoltorio main #puchero video{
+	display: block;
+	width: 35%;
+	/*position: relative;*/
+	float: right;
+	margin-bottom:30%;
+	margin-top: 6%;
+	margin-right: 4%;
+}
+
+#envoltorio main #pollo #texto2{
+	width: 50%;
+	border-width: 5px;
+	border-color: black;
+	border-style: solid;
+	padding: 2%;
+	border-radius: 10%;
+	float: left;
+	background-image: url("img/pollofondo1.jpg") ;
+	background-repeat: repeat ;
+	background-position: center ;
+	text-shadow: white 1px 1px 1px;
+	font-size: 12.5pt;
+	font-family: "SourceSansPro-Regular";
+} 
+#envoltorio main #pollo video{
+	display: block;
+	width: 35%;
+	float: right;
+	margin-bottom:30%;
+	margin-top: -15%;
+	margin-right: 4%;
+	/*left: 15%;
+	top: 50%;*/
+}
+#envoltorio main #pollo img{
+	display: block;
+	width: 35%;
+	/*position: relative;*/
+	float: right;
+	margin-bottom:2%;
+	margin-top: -25%;
+	margin-right: 4%;
+}	
+.titulo{
+	font-family: "Lobster-Regular";
+	word-spacing: 1px;
+}
+.subtitulo{
+	font-family: "RumRaisin-Regular";
 }
