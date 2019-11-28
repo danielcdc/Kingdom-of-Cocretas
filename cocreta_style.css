@@ -91,9 +91,6 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	padding-right: 13%;
 }
 
-.anuncio {
-	margin-left: 70%;
-}
 
 .indice  {
 		text-align: center;
@@ -117,7 +114,7 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 
 		}
 
-main {
+.imagenMain {
 			background-image: url(img/fond.jpg);
 		}
 
