@@ -3,6 +3,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
+	margin: 0;
 }
 
 @font-face{
@@ -114,6 +115,22 @@ footer{/*Apartado II*/
 	background-color: red;
 	justify-content: center;
 }
+
+main{ /* Índice Apartado II: El main contiene al índice.*/
+	box-sizing: border-box;
+	width: 100%;
+	float: left;
+	/*Pruebas*/
+	justify-content: center;
+}
+
+main { /* Índice Apartado II: El main contiene al índice.*/
+	box-sizing: border-box;
+	width: 100%;
+	float: left;
+	/*Pruebas*/
+}
+
 #envoltorio .publicidad{ /* Índice Apartado IV: Hueco para un video y publicidad molestas. Se coloca en el aside.*/
 	box-sizing: border-box;
 	width: 19%;
@@ -134,15 +151,49 @@ footer{/*Apartado II*/
 	/*Pruebas*/
 	padding: 1%;
 }
+
+#carrusel main #imagen{
+	width: 100%;
+}
+#carrusel main #imagen img{
+	width: 100%;
+	text-align: center
+}
 #carruselIzq {/*Aplicar al aside izq del carrusel. Por fuera del envolotori #carrusel.*/
+	background-image: url("img/croqueta_de_langostino.jpg");
+	background-size: 600px;
+	background-repeat: no-repeat;
+	background-position-x: -500px;
 	box-sizing: border-box;
-	overflow: auto;
+	overflow: hidden;
 	float: left;
 	width: 5%;
+	height: 600px;
+	margin-right: 20px;
+	border: 2px hidden;
+	border-radius: 0px 20px 20px 0;
+	box-shadow: 5px 2px 10px black;
 }
 #carruselDer {/*Aplicar al aside der del carrusel. Por fuera del envolotori #carrusel.*/
+	background-image: url("img/croqueta_de_langostino.jpg");
+	background-size: 600px;
+	background-repeat: no-repeat;
+	background-position-x: -100px;
 	box-sizing: border-box;
-	overflow: auto;
+	overflow: hidden;
 	float: right;
 	width: 5%;
+	height: 600px;
+	border-radius: 20px 0px 0px 20px;
+	box-shadow: -5px 2px 10px black;
+}
+
+#carruselIzq:hover{
+	width: 7%;
+	background-position-x: -490px;
+
+}
+
+#carruselDer:hover{
+	width: 7%;
 }
