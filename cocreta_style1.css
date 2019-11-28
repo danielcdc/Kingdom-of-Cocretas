@@ -96,7 +96,7 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	display: inline-block;
 }
 	
-#envoltorio main .jamon video{
+#envoltorio main #jamon video{
 display: block;
 width: 30%;
 float: left;
