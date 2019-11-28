@@ -11,9 +11,6 @@
 	src: url("img/fuente1/SourceSansPro-Regular.ttf");
 	font-family: "SourceSansPro-Regular";
 }
-body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
-	background-color: coral;
-}
 #portada{/*Actúa como #envoltorio de la página Portada*/
 	background-color: #FAEBD7;
 	width: 75%;
@@ -31,7 +28,7 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	clear: both;
 }
 #envoltorio{/*Actúa como #envoltorio de las página  de Índice y Contenido.*/
-	background-color: #FAEBD7;
+	background-image: url('img/madera1.jpg');
 	width: 90%;
 	margin: auto;
 	overflow: auto;
@@ -106,6 +103,9 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 }
 
 /*Selectores del Índice, elaborado Manuel Caro Delgado*/
+.fondoBody{
+	background-image: url('img/manelazul.jpg');
+}
 .superIndex {
 	padding-right: 13%;
 }
