@@ -77,10 +77,11 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	
 #envoltorio main #jamon video{
 display: block;
-width: 525px;
-position: relative;
-left: 20px;
-top: 45px;
+width: 35%;
+float: right;
+margin-bottom:30%;
+margin-top: 6%;
+margin-right: 4%;
 }
 #envoltorio main #puchero #texto1{
 	width: 50%;
@@ -97,10 +98,12 @@ top: 45px;
 }
 #envoltorio main #puchero video{
 	display: block;
-	width: 525px;
-	position: relative;
-	left: 20px;
-	top: 245px;
+	width: 35%;
+	/*position: relative;*/
+	float: right;
+	margin-bottom:30%;
+	margin-top: 6%;
+	margin-right: 4%;
 	}
 
 #envoltorio main #pollo #texto2{
@@ -118,17 +121,22 @@ top: 45px;
 } 
 #envoltorio main #pollo video{
 	display: block;
-	width: 525px;
-	position: relative;
-	left: 20px;
-	top: 260px;
+	width: 35%;
+	float: right;
+	margin-bottom:30%;
+	margin-top: -15%;
+	margin-right: 4%;
+	/*left: 15%;
+	top: 50%;*/
 	}
 #envoltorio main #pollo img{
 	display: block;
-	width: 525px;
-	position: relative;
-	left: 20px;
-	top: 300px;
+	width: 35%;
+	/*position: relative;*/
+	float: right;
+	margin-bottom:30%;
+	margin-top: -15%;
+	margin-right: 4%;
 }	
 .titulo{
 	font-family: "Lobster-Regular";
