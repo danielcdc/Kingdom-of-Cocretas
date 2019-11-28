@@ -1,0 +1,123 @@
+body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
+	background-color: coral;
+}
+#portada{/*Actúa como #envoltorio de la página Portada*/
+	background-color: #FAEBD7;
+	width: 75%;
+	margin: 0 auto;
+}
+#portada img{ /*Portada Apartado I*/
+	box-sizing: border-box;
+	width: 100%;
+	justify-content: center;
+}
+.avisoLegal{/*La clase avisoLegal se aplica al footer.*/
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	clear: both;
+}
+#envoltorio{/*Actúa como #envoltorio de las página  de Índice y Contenido.*/
+	background-color: #FAEBD7;
+	width: 90%;
+	margin: auto;
+	overflow: auto;
+}
+#envoltorio header{ /*Índice Apartado I*/
+	box-sizing: border-box;
+	width: 100%;
+	margin: 0 auto 2px;
+	border: 2px solid black;
+	/*Pruebas*/
+	text-align: center;
+	font-size: 32px;
+	background-color: yellow;
+}
+.menu{ /*Navegador horizontal, justo debajo del header y se aplica al nav. Aquí estará el índice con las diferentes partes del texto.*/
+	box-sizing: border-box;
+	width: 100%;
+	clear: both;
+	margin: 0 auto 2px;
+	/*Pruebas*/
+	background-color: #FAEBD7;
+	font-size: 25pt;
+	font-family: Verdana;
+	text-align: center;
+	border: 2px solid black;
+}
+#envoltorio main{ /* Índice Apartado II: El main contiene al índice.*/
+	box-sizing: border-box;
+	width: 79%;
+	float: left;
+	margin: 0.5%;
+	/*Pruebas*/
+	background-color: red;
+	justify-content: center;
+}
+#envoltorio .publicidad{ /* Índice Apartado IV: Hueco para un video y publicidad molestas. Se coloca en el aside.*/
+	box-sizing: border-box;
+	width: 19%;
+	margin: 0.5%;
+	float: right;
+	/*Pruebas*/
+	background-color: green;
+}
+#envoltorio aside video{/*El vídeo molesto*/
+	box-sizing: border-box;
+	overflow: auto;
+}
+#carrusel{/*Actua como envoltorio para la página de carrusel, que requiere de otras dimensiones.*/
+	background-color: #FAEBD7;
+	width: 80%;
+	margin: auto;
+	overflow: auto;
+	/*Pruebas*/
+	padding: 1%;
+}
+#carruselIzq {/*Aplicar al aside izq del carrusel. Por fuera del envolotori #carrusel.*/
+	box-sizing: border-box;
+	overflow: auto;
+	float: left;
+	width: 5%;
+}
+#carruselDer {/*Aplicar al aside der del carrusel. Por fuera del envolotori #carrusel.*/
+	box-sizing: border-box;
+	overflow: auto;
+	float: right;
+	width: 5%;
+}
+
+.superindice {
+	padding-right: 13%;
+}
+
+.anuncio {
+	margin-left: 70%;
+}
+
+.indice  {
+		text-align: center;
+		width: 110%;
+		height: 80%;
+		bottom: 100%;
+		/*background-color: rgb(235, 64, 52);*/
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin: 20px;
+		background-color: red;
+		border: solid 2px black;
+
+		}
+	
+.let {
+				text-decoration: none;
+				color: #000;
+				height: 80%;
+				padding-right: 25%;
+
+		}
+
+main {
+			background-image: url(img/fond.jpg);
+		}
+
