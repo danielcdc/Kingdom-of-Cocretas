@@ -11,6 +11,11 @@
 	src: url('orange-juice/orangejuice.ttf');
  }
 
+ @font-face{
+	font-family: 'Garden Sans';
+	src: url('Garden_Sans/Garden_Sans.ttf');
+ }
+
 #portada{/*Actúa como #envoltorio de la página Portada*/
 	background-image: url("img/madera1.jpg");
 	box-shadow: 0px 0px 30px;
@@ -66,12 +71,32 @@
 
 footer{/*Apartado II*/
 	box-sizing: border-box;
+	color: rgb(255, 255, 255);
+	font-family: "Garden Sans";
 	border: 0.1px solid black;
-	width: 50%;
+	width: 95%;
 	clear: both;
 	margin: 0 auto;
-	background-color: white;
+	margin-top: 20px;
+	background-color: rgba(0, 0, 0, 0.63);
+	box-shadow: 0px 0px 2px black; 
 }
+
+/*footer #imgFooter{
+	width: 10%;
+	float: left;
+}*/
+footer #imgFooter img{
+	width: 5%;
+	margin: 0;
+	display: block;
+}
+footer p{
+	display: block;
+	margin: 0;
+	float: left;
+}
+
 .avisoLegal{/*La clase avisoLegal se aplica al footer.*/
 	box-sizing: border-box;
 	width: 100%;
