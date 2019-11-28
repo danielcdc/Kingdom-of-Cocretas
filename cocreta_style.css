@@ -88,9 +88,8 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	text-align: center;
 	border: 2px solid black;
 }
-
 	
-}
+
 #envoltorio main{ /*Clase general Contenido potente sobre la historia de la cocreta y sus orígenes.*/
 	box-sizing: border-box;
 	width: 79%;
@@ -134,10 +133,15 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 /*Ale estilo estra para aside publicidad*/
 #envoltorio .WCpublicidad{
 	border: 2px solid black;
+	background-color: rgb(0,0,0, 0.9);
+}
+/*Ale estilo para imagen publicidad*/
+#envoltorio .WCpublicidad img{
+	width: 100%;
 }
 
 /*Ale para el indice con enlaces internos*/
-#envoltorio main #WCindice{
+#envoltorio main div #WCindice{
 	width: 215px;
   	height:180px;/*
   	position:relative;
