@@ -1,9 +1,6 @@
 body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	background-color: coral;
 }
-@font-face{
-
-}
 #portada{/*Actúa como #envoltorio de la página Portada*/
 	background-color: #FAEBD7;
 	width: 90%;
@@ -62,11 +59,11 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	text-align: center;
 	clear: both;
 }
-#pagina1{/*Actúa como #envoltorio de la página Índice.*/
+#envoltorio{/*Actúa como #envoltorio de la página Índice.*/
 	width: 90%;
 	margin: 0 auto;
 }
-#pagina1 header{ 
+#envoltorio header{ 
 	box-sizing: border-box;
 	width: 100%;	
 	/*Pruebas*/
@@ -77,49 +74,79 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	border: 2px solid black;
 	margin-bottom: 0.5%;
 }
-#pagina1 #menu nav{ /*Navegador horizontal, justo debajo del header. Aquí estará el índice con las diferentes partes del texto.*/
+.menu { /*Navegador horizontal, justo debajo del header. Aquí estará el índice con las diferentes partes del texto.*/
 	box-sizing: border-box;
 	width: 100%;
 	clear: both;
+	margin: 0 auto 2px;
+}
+.WCmenu{
 	margin-bottom: 0.5%;
-	/*Pruebas*/
 	background-color: #FAEBD7;
 	font-size: 25pt;
 	font-family: Verdana;
 	text-align: center;
 	border: 2px solid black;
 }
-#pagina1 main{ /*Contenido potente sobre la historia de la cocreta y sus orígenes.*/
-	box-sizing: border-box;
-	width: 80%;
-	margin-bottom: 0.5%;
-	float: left;
-	/*Pruebas
-	justify-content: center;
-	background-color: #FAEBD7;
-	font-size: 25pt;
-	font-family: Verdana;
-	text-align: center;
-	border: 2px solid black;
-	margin-bottom: 0.5%;*/
-}
-#pagina1 main #indice{
-	border: 2px solid rgba(0,0,0, 0.2);
-    background-color: rgba(255,255,255, 0.2);
-    padding: 5px;
-    font-size: 95%;
 
+	
 }
-#pagina1 main img{ /*Imágenes que acompañen a la historia.*/
- width: 100px
- 
-}
-#pagina1 aside{
+#envoltorio main{ /*Clase general Contenido potente sobre la historia de la cocreta y sus orígenes.*/
 	box-sizing: border-box;
-	width: 19.5%;
+	width: 79%;
+	float: left;
+	margin: 0.5%;
+}
+
+/*Ale, extra para el main*/
+#envoltorio main #WCmain{
+	background-color: #FAEBD7;
+	font-family: Verdana;
+	border: 2px solid black;
+	padding: 1em;
+	margin-bottom: 0.5%;
+	font-size: 12pt;	
+	margin-bottom: 0.5%;
+}
+
+/*De Ale clase nueva, para la imagen que hay en el contenido*/
+#envoltorio main #caja{
+	margin-top: 20px;
+	float: right;
+	border: 6px double rgba(0,0,0, 0.2);
+	border-radius: 10px 0px 0px 10px;
+	background-color: rgba(255,255,255, 0.2);
+    padding: 5px;
+    margin-left: 1em
+    line-height: 1.4em;
+    font-size: 8pt;
+}
+
+/*Clase general*/
+#envoltorio .publicidad{
+	box-sizing: border-box;
+	width: 19%;
+	margin: 0.5%;
 	float: right;
 	/*Pruebas*/
-	border: 2px solid black;
-	font-size: 10pt;
-	font-family: Arial;
+	
 }
+/*Ale estilo estra para aside publicidad*/
+#envoltorio .WCpublicidad{
+	border: 2px solid black;
+}
+
+/*Ale para el indice con enlaces internos*/
+#envoltorio main #WCindice{
+	width: 215px;
+  	height:180px;/*
+  	position:relative;
+  	left:0px;
+ 	top:0px;*/
+ 	clear:both;
+    background-color: rgba(255,255,255, 0.2);
+    border: 5px ridge rgba(0,0,0, 0.2);
+	border-radius: 0px 0px 40px 0px;
+    padding: 5px;
+    font-size: 20pt;
+
