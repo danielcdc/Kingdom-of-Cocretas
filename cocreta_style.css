@@ -65,14 +65,26 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 }
 #envoltorio header{ 
 	box-sizing: border-box;
-	width: 100%;	
+	width: 100%;
+	margin: 0 auto 2px;
+	border: 2px solid black;
 	/*Pruebas*/
-	background-color: #FAEBD7;
-	font-size: 25pt;
+}
+
+.WCheader{
+	font-size: 40pt;
+	font-variant: small-caps;
+	font-weight: bold;
 	font-family: Verdana;
 	text-align: center;
-	border: 2px solid black;
 	margin-bottom: 0.5%;
+	background: #F88379;
+	background: #F88379;
+	background: -moz-linear-gradient(left, #F88379 0%, #FAEABD 50%, #F88379 100%);
+	background: -webkit-linear-gradient(left, #F88379 0%, #FAEABD 50%, #F88379 100%);
+	background: linear-gradient(to right, #F88379 0%, #FAEABD 50%, #F88379 100%);
+
+	text-shadow: 0 1px 0px #A33A38,1px 2px 1px #A33A38, 2px 3px 2px #A33A38, 3px 4px 2px #A33A38, 4px 5px 3px #A33A38, 5px 6px 2px #A33A38, 6px 7px 1px #A33A38, 7px 8px 0px #A33A38, 2px 2px 2px rgba(206,89,55,0);
 }
 .menu { /*Navegador horizontal, justo debajo del header. Aquí estará el índice con las diferentes partes del texto.*/
 	box-sizing: border-box;
@@ -133,11 +145,15 @@ body{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 /*Ale estilo estra para aside publicidad*/
 #envoltorio .WCpublicidad{
 	border: 2px solid black;
-	background-color: rgb(0,0,0, 0.9);
+	background-color: rgb(0,0,0, 0.6);
+	font-size: 25pt;
+	text-align: center;
+	color: rgb(255,255,255, 0.6)
 }
 /*Ale estilo para imagen publicidad*/
 #envoltorio .WCpublicidad img{
 	width: 100%;
+	margin-bottom: 15%;
 }
 
 /*Ale para el indice con enlaces internos*/
