@@ -1,12 +1,18 @@
 /*Posicionamiento*/
 
-#portada{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
+#fonCar{
+	width: 100%;
+	background-color: rgb(95, 43, 0);
+}
+
+#portada1{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
 	background-image: url("img/fondococina.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
 	margin: 0;
 }
+
 @font-face{
 	src: url("img/Lobster/Lobster-Regular.ttf");
 	font-family: "Lobster-Regular";
@@ -319,3 +325,291 @@ footer{/*Apartado II*/
 .subtitulo{
 	font-family: "RumRaisin-Regular";
 }
+
+#carruselIzqPuchero{
+	background-image: url("img/flores_de_chipirones.jpg");
+	background-size: 600px;
+	background-repeat: no-repeat;
+	background-position-x: -500px;
+	box-sizing: border-box;
+	overflow: hidden;
+	float: left;
+	width: 5%;
+	height: 600px;
+	margin-right: 20px;
+	border: 2px hidden;
+	border-radius: 0px 20px 20px 0;
+	box-shadow: 5px 2px 10px rgba(0, 0, 0, 0.596);
+}
+
+#carruselDerPuchero{
+	background-image: url("img/imagen_croqueta_de_jamon.jpg");
+	background-size: 600px;
+	background-repeat: no-repeat;
+	background-position-x: -100px;
+	box-sizing: border-box;
+	overflow: hidden;
+	float: right;
+	width: 5%;
+	height: 600px;
+	border-radius: 20px 0px 0px 20px;
+	box-shadow: -5px 2px 10px rgba(0, 0, 0, 0.596);
+}
+
+#carruselIzqJam{
+	background-image: url("img/croquetas_de_puchero.jpg");
+	background-size: 600px;
+	background-repeat: no-repeat;
+	background-position-x: -500px;
+	box-sizing: border-box;
+	overflow: hidden;
+	float: left;
+	width: 5%;
+	height: 600px;
+	margin-right: 20px;
+	border: 2px hidden;
+	border-radius: 0px 20px 20px 0;
+	box-shadow: 5px 2px 10px rgba(0, 0, 0, 0.596);
+}
+
+#carruselDerJam{
+	background-image: url("img/croqueta_de_langostino.jpg");
+	background-size: 600px;
+	background-repeat: no-repeat;
+	background-position-x: -100px;
+	box-sizing: border-box;
+	overflow: hidden;
+	float: right;
+	width: 5%;
+	height: 600px;
+	border-radius: 20px 0px 0px 20px;
+	box-shadow: -5px 2px 10px rgba(0, 0, 0, 0.596);
+}
+
+#carruselIzqLang{
+	background-image: url("img/imagen_croqueta_de_jamon.jpg");
+	background-size: 600px;
+	background-repeat: no-repeat;
+	background-position-x: -500px;
+	box-sizing: border-box;
+	overflow: hidden;
+	float: left;
+	width: 5%;
+	height: 600px;
+	margin-right: 20px;
+	border: 2px hidden;
+	border-radius: 0px 20px 20px 0;
+	box-shadow: 5px 2px 10px rgba(0, 0, 0, 0.596);
+}
+
+#carruselDerLang{
+	background-image: url("img/croquetas_de_pollo.jpg");
+	background-size: 600px;
+	background-repeat: no-repeat;
+	background-position-x: -100px;
+	box-sizing: border-box;
+	overflow: hidden;
+	float: right;
+	width: 5%;
+	height: 600px;
+	border-radius: 20px 0px 0px 20px;
+	box-shadow: -5px 2px 10px rgba(0, 0, 0, 0.596);
+}
+
+#carruselIzqPollo{
+	background-image: url("img/croqueta_de_langostino.jpg");
+	background-size: 600px;
+	background-repeat: no-repeat;
+	background-position-x: -500px;
+	box-sizing: border-box;
+	overflow: hidden;
+	float: left;
+	width: 5%;
+	height: 600px;
+	margin-right: 20px;
+	border: 2px hidden;
+	border-radius: 0px 20px 20px 0;
+	box-shadow: 5px 2px 10px rgba(0, 0, 0, 0.596);
+}
+
+#carruselDerPollo{
+	background-image: url("img/croqueta_de_jamon1.jpg");
+	background-size: 600px;
+	background-repeat: no-repeat;
+	background-position-x: -100px;
+	box-sizing: border-box;
+	overflow: hidden;
+	float: right;
+	width: 5%;
+	height: 600px;
+	border-radius: 20px 0px 0px 20px;
+	box-shadow: -5px 2px 10px rgba(0, 0, 0, 0.596);
+}
+
+#carruselIzqJam1{
+	background-image: url("img/croquetas_de_pollo.jpg");
+	background-size: 600px;
+	background-repeat: no-repeat;
+	background-position-x: -490px;
+	box-sizing: border-box;
+	overflow: hidden;
+	float: left;
+	width: 5%;
+	height: 600px;
+	margin-right: 20px;
+	border: 2px hidden;
+	border-radius: 0px 20px 20px 0;
+	box-shadow: 5px 2px 10px rgba(0, 0, 0, 0.596);
+}
+
+#carruselDerJam1{
+	background-image: url("img/flores_de_chipirones.jpg");
+	background-size: 600px;
+	background-repeat: no-repeat;
+	background-position-x: -100px;
+	box-sizing: border-box;
+	overflow: hidden;
+	float: right;
+	width: 5%;
+	height: 600px;
+	border-radius: 20px 0px 0px 20px;
+	box-shadow: -5px 2px 10px rgba(0, 0, 0, 0.596);
+}
+
+#carruselIzqFlor{
+	background-image: url("img/croqueta_de_jamon1.jpg");
+	background-position-x: -490px;
+	background-size: 600px;
+	box-sizing: border-box;
+	overflow: hidden;
+	float: left;
+	width: 5%;
+	height: 600px;
+	margin-right: 20px;
+	border: 2px hidden;
+	border-radius: 0px 20px 20px 0;
+	box-shadow: 5px 2px 10px rgba(0, 0, 0, 0.596);
+}
+
+#carruselDerFlor{
+	background-image: url("img/croquetas_de_puchero.jpg");
+	background-position-x: -100px;
+	background-size: 600px;
+	background-repeat: no-repeat;
+	background-position-x: -100px;
+	box-sizing: border-box;
+	overflow: hidden;
+	float: right;
+	width: 5%;
+	height: 600px;
+	border-radius: 20px 0px 0px 20px;
+	box-shadow: -5px 2px 10px rgba(0, 0, 0, 0.596);
+}
+
+#menuCarrusel img{
+	width: 10%;
+}
+
+#menuCarrusel img#lang{
+	width: 9.9%
+}
+
+#menuCarrusel img:hover{
+	box-shadow: 0px 0px 10px rgba(167, 158, 132, 0.836);
+	border-radius: 2px;
+}
+
+#menuCarrusel img#lang:hover{
+	box-shadow: 0px 0px 10px rgba(167, 158, 132, 0.836);
+}
+
+.carruselder:hover{
+	width: 7%;
+	background-position-x: -490px;
+
+}
+
+.carruselizq:hover{
+	width: 7%;
+	background-position-x: 30px;
+}
+
+#carruselIzqPuchero:hover{
+	width: 7%;
+	background-position-x: -480px;
+}
+
+#carruselDerPuchero:hover{
+	width: 7%;
+	background-position-x: -90px;
+}
+
+#carruselIzqJam:hover{
+	width: 7%;
+	background-position-x: -480px;
+}
+
+#carruselDerJam:hover{
+	width: 7%;
+	background-position-x: -90px;
+}
+
+#carruselIzqLang:hover{
+	width: 7%;
+	background-position-x: -480px;
+}
+
+#carruselDerLang:hover{
+	width: 7%;
+	background-position-x: -90px;
+}
+
+#carruselIzqPollo:hover{
+	width: 7%;
+	background-position-x: -480px;
+}
+
+#carruselDerPollo:hover{
+	width: 7%;
+	background-position-x: -90px;
+}
+
+#carruselIzqJam1:hover{
+	width: 7%;
+	background-position-x: -480px;
+}
+
+#carruselDerJam1:hover{
+	width: 7%;
+	background-position-x: -90px;
+}
+
+#carruselIzqFlor:hover{
+	width: 7%;
+	background-position-x: -480px;
+}
+
+#carruselDerFlor:hover{
+	width: 7%;
+	background-position-x: -90px;
+}
+
+#carrusel{/*Actua como envoltorio para la página de carrusel, que requiere de otras dimensiones.*/
+	background-color: #FAEBD7;
+	width: 80%;
+	margin: auto;
+	overflow: auto;
+	/*Pruebas*/
+	padding: 1%;
+}
+
+
+
+#carrusel main #imagen{
+	width: 100%;
+}
+#carrusel main #imagen img{
+	width: 100%;
+	text-align: center
+}
+
