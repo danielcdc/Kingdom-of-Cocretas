@@ -1,4 +1,12 @@
 /*Posicionamiento*/
+
+#portada{ /*Aquí se coloca una imagen de fondo cocreteramente molona.*/
+	background-image: url("img/fondococina.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	margin: 0;
+}
 @font-face{
 	src: url("img/Lobster/Lobster-Regular.ttf");
 	font-family: "Lobster-Regular";
@@ -11,16 +19,83 @@
 	src: url("img/fuente1/SourceSansPro-Regular.ttf");
 	font-family: "SourceSansPro-Regular";
 }
+
+@font-face{
+	font-family: 'Orange juice';
+	src: url('orange-juice/orangejuice.ttf');
+ }
+
+ @font-face{
+	font-family: 'Garden Sans';
+	src: url('Garden_Sans/Garden_Sans.ttf');
+ }
+
 #portada{/*Actúa como #envoltorio de la página Portada*/
-	background-color: #FAEBD7;
-	width: 75%;
+	background-image: url("img/madera1.jpg");
+	box-shadow: 0px 0px 30px;
+	border-radius: 150px 150px 200px 200px;
+	width: 90%;
 	margin: 0 auto;
+	text-align: center;
 }
-#portada img{ /*Portada Apartado I*/
+#portada #imag{ /*Apartado I*/
 	box-sizing: border-box;
-	width: 100%;
+	margin: 0 auto;	
+	width: 40%;
+	border-style: solid;	
+	border-width: 2px;
+	border-color:rgb(95, 43, 0);
+	border-radius: 300px; 
+	background-image: url("img/manelazul.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 	justify-content: center;
+	/*box-shadow: 1px 1px 10px brown;*/
 }
+
+#portada #titulo h1{
+	width: 40%;
+	background-image: url("img/manelazul.jpg");
+	background-size: 565px;
+	font-family: "Orange juice";
+	font-size: 80px;
+	margin: 0 auto;
+	border: 30px;
+	border-style: hidden groove hidden groove;
+	border-color:rgb(95, 43, 0);
+	border-radius: 200px;
+}
+
+#portada #imag a img{ /*Apartado I*/
+	box-sizing: border-box;
+	border-radius: 300px;
+	width: 99.9%;
+}
+
+#portada #imag:hover{ /*Apartado I*/
+	border-radius: 270px;
+	border-style: dashed;
+	border-color:rgb(95, 43, 0);
+	box-shadow: 1px 1px 90px black;
+}
+
+#portada #titulo:hover h1{ /*Apartado I*/
+	box-shadow: 0px 0px 20px;
+}
+
+footer{/*Apartado II*/
+	box-sizing: border-box;
+	color: rgb(255, 255, 255);
+	font-family: "Garden Sans";
+	border: 0.1px solid black;
+	width: 95%;
+	clear: both;
+	margin: 0 auto;
+	margin-top: 20px;
+	background-color: rgba(0, 0, 0, 0.63);
+	box-shadow: 0px 0px 2px black; 
+}
+
 .avisoLegal{/*La clase avisoLegal se aplica al footer.*/
 	box-sizing: border-box;
 	width: 100%;
