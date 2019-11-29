@@ -142,6 +142,82 @@ a{
 	background-image: url(img/fond.jpg);
 	background-size: cover;
 }
+/*Selectores de Wikroquetas, elaborado por Alejandro Vidal*/
+.WCheader{
+	font-size: 40pt;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-family: Verdana;
+	text-align: center;
+	margin-bottom: 0.5%;
+	background: #F88379;
+	background: #F88379;
+	background: -moz-linear-gradient(left, #F88379 0%, #FAEABD 50%, #F88379 100%);
+	background: -webkit-linear-gradient(left, #F88379 0%, #FAEABD 50%, #F88379 100%);
+	background: linear-gradient(to right, #F88379 0%, #FAEABD 50%, #F88379 100%);
+
+	text-shadow: 0 1px 0px #A33A38,1px 2px 1px #A33A38, 2px 3px 2px #A33A38, 3px 4px 2px #A33A38, 4px 5px 3px #A33A38, 5px 6px 2px #A33A38, 6px 7px 1px #A33A38, 7px 8px 0px #A33A38, 2px 2px 2px rgba(206,89,55,0);
+}
+.WCmenu{
+	margin-bottom: 0.5%;
+	background-color: #FAEBD7;
+	font-size: 25pt;
+	font-family: Verdana;
+	text-align: center;
+	border: 2px solid black;
+}
+#envoltorio main #WCmain{
+	background-color: #FAEBD7;
+	font-family: Verdana;
+	border: 2px solid black;
+	padding: 1em;
+	margin-bottom: 0.5%;
+	font-size: 12pt;	
+	margin-bottom: 0.5%;
+}
+
+/*De Ale clase nueva, para la imagen que hay en el contenido*/
+#envoltorio main #caja{
+	margin-top: 20px;
+	float: right;
+	border: 6px double rgba(0,0,0, 0.2);
+	border-radius: 10px 0px 0px 10px;
+	background-color: rgba(255,255,255, 0.2);
+    padding: 5px;
+    margin-left: 1em
+    line-height: 1.4em;
+    font-size: 8pt;
+}
+/*Ale estilo estra para aside publicidad*/
+#envoltorio .WCpublicidad{
+	border: 2px solid black;
+	background-color: rgb(0,0,0, 0.6);
+	font-size: 25pt;
+	text-align: center;
+	color: rgb(255,255,255, 0.6)
+}
+/*Ale estilo para imagen publicidad*/
+#envoltorio .WCpublicidad img{
+	width: 100%;
+	margin-bottom: 15%;
+}
+
+/*Ale para el indice con enlaces internos*/
+#envoltorio main div #WCindice{
+	width: 215px;
+  	height:180px;/*
+  	position:relative;
+  	left:0px;
+ 	top:0px;*/
+ 	clear:both;
+    background-color: rgba(255,255,255, 0.2);
+    border: 5px ridge rgba(0,0,0, 0.2);
+	border-radius: 0px 0px 40px 0px;
+    padding: 5px;
+    font-size: 20pt;
+}
+
+
 /*Selectores de Recetas, elaborado por Christian Payo*/
  .fondoChristian{
  	background-image: url('img/mantel.jpg');
@@ -256,3 +332,4 @@ a{
 .subtitulo{
 	font-family: "RumRaisin-Regular";
 }
+/**/
