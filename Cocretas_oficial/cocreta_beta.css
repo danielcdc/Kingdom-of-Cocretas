@@ -11,6 +11,9 @@
 	src: url("img/fuente1/SourceSansPro-Regular.ttf");
 	font-family: "SourceSansPro-Regular";
 }
+a{
+	text-decoration: none;
+}
 #portada{/*Actúa como #envoltorio de la página Portada*/
 	background-color: #FAEBD7;
 	width: 75%;
@@ -47,7 +50,7 @@
 	background-color: yellow;
 	
 }
-.menu{ /*Navegador horizontal, justo debajo del header y se aplica al nav. Aquí estará el índice con las diferentes partes del texto.*/
+.menu nav{ /*Navegador horizontal, justo debajo del header y se aplica al nav. Aquí estará el índice con las diferentes partes del texto.*/
 	box-sizing: border-box;
 	width: 100%;
 	clear: both;
@@ -69,8 +72,8 @@
 	justify-content: center;*/
 }
 #envoltorio .publicidad{ /* Índice Apartado IV: Hueco para un video y publicidad molestas. Se coloca en el aside.*/
-	position: sticky;
-	top: 0;
+	position: -webkit-sticky;
+  	top: 0;
 	box-sizing: border-box;
 	width: 19%;
 	margin: 0.5%;
@@ -140,6 +143,9 @@
 	background-size: cover;
 }
 /*Selectores de Recetas, elaborado por Christian Payo*/
+ .fondoChristian{
+ 	background-image: url('img/mantel.jpg');
+ }
 .colorspan{
 	color: rgb(0, 0, 238);
 }
@@ -148,10 +154,11 @@
 	white-space: nowrap;
 }
 
-.menu .color{
+.menu #menuColor{
 	background-color: rgb(160, 90, 65);
 	font-size: 20pt;
-	
+	text-align: center;
+
 }
 
 #envoltorio main #color{
